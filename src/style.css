@@ -1,81 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h1, h2 {
-    color: #333;
-  }
-  
-  #search-area {
-    margin: 20px 0;
-  }
-  
-  input {
-    padding: 10px;
-    font-size: 16px;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    margin-left: 10px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  #stock-info {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 30px;
-    padding: 20px;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  #favorites {
-    margin-top: 50px;
-  }
-  
-  #favoritesList {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-  }
-  
-  #favoritesList li {
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 8px auto;
-    padding: 10px;
-    width: 300px;
-    text-align: left;
-  }
-  
-  .success {
-    color: green;
-    font-weight: bold;
-  }
-  
-  .warning {
-    color: red;
-    font-weight: bold;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#search-area {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#stock-info {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  padding: 20px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#favorites {
+  margin-top: 50px;
+}
+
+#favoritesList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#favoritesList li {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 8px auto;
+  padding: 10px;
+  width: 300px;
+  text-align: left;
+}
+
+/* Green text for success */
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+/* Red text for warning */
+.warning {
+  color: red;
+  font-weight: bold;
+}
